@@ -464,6 +464,24 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+      @media only screen and (min-width:769px) {
+ 
+
+        #mb{
+          
+            display: none !important;
+        }
+       
+    }
+    @media only screen and (max-width: 600px) {
+ 
+
+      #cm{
+        
+          display: none !important;
+      }
+     
+  }
 
 .container-fluid {
   width: 100%;
